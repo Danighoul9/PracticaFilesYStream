@@ -85,7 +85,7 @@ public class App {
         IO.println("Todos los pacientes de Pediatría son menores de 15 años?: " + cp.isAllPacientesMenorDe15());
         IO.println();
 
-        IO.println("=== Consulta 15:  ===");
+        IO.println("=== Consulta 15: Porcentaje derivados  ===");
         IO.println(cp.getPorcentajeDerivados() + "%");
 
 

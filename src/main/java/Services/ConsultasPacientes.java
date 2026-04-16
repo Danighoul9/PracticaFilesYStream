@@ -135,6 +135,7 @@ public class ConsultasPacientes {
                 .collect(Collectors.groupingBy(p -> p.getFechaConsulta().getMonth(),
                          Collectors.counting()));
     }
+
     /**Consulta 13 — Especialidad con más pacientes derivados
     Obtener la especialidad que más pacientes ha derivado.
     Streams a usar: filter , collect , groupingBy , counting , max*/
