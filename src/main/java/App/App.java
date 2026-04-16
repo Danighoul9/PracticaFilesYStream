@@ -86,7 +86,7 @@ public class App {
         IO.println();
 
         IO.println("=== Consulta 15: Porcentaje derivados  ===");
-        IO.println(cp.getPorcentajeDerivados() + "%");
+        IO.println("Porcentaje de pacientes derivados: " + cp.getPorcentajeDerivados() + "%");
 
 
 
